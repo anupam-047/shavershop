@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.slider-text {
+  position: absolute;
+  right: 15%;
+  bottom: 200px;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.slider-text-2 {
+  position: absolute;
+  right: 15%;
+  bottom: 50px;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+}
+
+.slider-img {
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+}
+
+.slider-img-2 {
+  width: 100%;
+  height: 21.875rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.product-bg {
+  background-color: #ebeeee;
+}
+
+.productdisplay-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.form-div {
+  width: 50%;
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+
+.review-img {
+  height: 100px;
+  width: 100px;
+}
+
+.review-carosel {
+  height: '300px';
+  width: '300px';
+  padding-top: '80px';
+  text-align: 'center';
+  background: '#52C0F5';
+  color: '#FFF';
+  font-size: '12px';
+  text-transform: 'uppercase';
+  border-radius: '10px';
+}
+
+.login-user-img {
+  width: 3.125rem;
+  object-fit: cover;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.booking-form input, textarea {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid gray;
+  padding: 10px 15px;
+  margin: 5px 0;
+  background: #FAF0C7;
+  border-radius: 5px;
+  outline: none;
+}
+
+.ticket-width {
+  width: 50px;
+  margin-top: -25px;
+  margin-left: 10px;
+}
+
+.trash {
+  cursor: pointer;
+}
+
+.status-width {
+  width: 80px
+}
+
+.our-service {
+  width: 70%;
+}
+
+.our-service p {
+  width: 80%
+}
+
+.carousel-control {
+  width: 50%;
+}
+
+.offcanvus_bg {
+  background: #fff;
+}
+
+/*----------------------- media query ------------------------ */
+
+@media only screen and (max-width:768px) {
+  .slider-text {
+    bottom: 150px;
+  }
+  .slider-img {
+    width: 1000px;
+    height: 500px;
+  }
+  .form-div {
+    width: 100%;
+  }
+  .our-service {
+    width: 100%;
+  }
+  .our-service p {
+    width: 100%
+  }
+  .carousel-control {
+    width: 90%;
+  }
+  .slider-text-2 {
+    bottom: 60px;
+  }
+}
